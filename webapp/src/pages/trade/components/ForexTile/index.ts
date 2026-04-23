@@ -1,0 +1,1 @@
+export { ForexTile } from './ForexTile';

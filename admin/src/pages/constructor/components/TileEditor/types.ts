@@ -1,0 +1,42 @@
+import type { ExpandBlock } from '../../../../api/client';
+
+export interface EditorState {
+  title: string;
+  setTitle: (v: string) => void;
+  description: string;
+  setDescription: (v: string) => void;
+  imageUrl: string;
+  setImageUrl: (v: string) => void;
+  actionUrl: string;
+  setActionUrl: (v: string) => void;
+  actionText: string;
+  setActionText: (v: string) => void;
+  sizeKey: string;
+  setSizeKey: (v: string) => void;
+  bgColor: string;
+  setBgColor: (v: string) => void;
+  bgOpacity: number;
+  setBgOpacity: (v: number) => void;
+  bgImage: string;
+  setBgImage: (v: string) => void;
+  bgImages: string[];
+  setBgImages: (v: string[] | ((prev: string[]) => string[])) => void;
+  rotationInterval: number;
+  setRotationInterval: (v: number) => void;
+  autoRotate: boolean;
+  setAutoRotate: (v: boolean) => void;
+  expandable: boolean;
+  setExpandable: (v: boolean) => void;
+  expandBlocks: ExpandBlock[];
+  setExpandBlocks: (v: ExpandBlock[] | ((prev: ExpandBlock[]) => ExpandBlock[])) => void;
+  isActive: boolean;
+  setIsActive: (v: boolean) => void;
+  type: string;
+  setType: (v: string) => void;
+  errors: Record<string, string>;
+  setErrors: (v: Record<string, string> | ((prev: Record<string, string>) => Record<string, string>)) => void;
+  isCube: boolean;
+  setShowCropModal: (v: boolean) => void;
+  setCropTargetIndex: (v: number) => void;
+  setExpandCropIndex: (v: number) => void;
+}

@@ -1,0 +1,1 @@
+export { SettingsTile } from './SettingsTile';

@@ -1,0 +1,1 @@
+export { AboutTile } from './AboutTile';

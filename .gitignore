@@ -1,0 +1,64 @@
+# Environment (root secrets)
+.env
+.env.*
+!.env.example
+
+# Allow frontend .env files (only VITE_* public vars)
+!webapp/.env
+!admin/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Node
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Redis
+dump.rdb
+
+# Uploads (user content)
+uploads/
+
+# Local scripts
+start-wt.bat
+
+# Docker
+docker/tmp/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# pytest
+.pytest_cache/
+
+# Alembic
+shared/database/migrations/versions/__pycache__/

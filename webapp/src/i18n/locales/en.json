@@ -1,0 +1,169 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back",
+    "tryAgain": "Try again",
+    "somethingWrong": "Something went wrong",
+    "goTo": "Go to",
+    "on": "On",
+    "off": "Off",
+    "source": "Source"
+  },
+  "nav": {
+    "home": "Home",
+    "trade": "Trade",
+    "wallet": "Wallet",
+    "support": "Support",
+    "about": "About",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "home": {
+    "title": "Market News",
+    "categories": {
+      "all": "All",
+      "crypto": "Crypto",
+      "stocks": "Stocks",
+      "macro": "Macro"
+    },
+    "readTime": "min",
+    "read": "Read",
+    "noNews": "No news",
+    "loadError": "Failed to load news",
+    "noTiles": "No active tiles",
+    "loadingArticle": "Loading full article..."
+  },
+  "trade": {
+    "title": "Terminal",
+    "subtitle": "Charts and order book",
+    "openPosition": "Open Position",
+    "crypto": "Cryptocurrencies",
+    "currencies": "Currencies",
+    "screener": "Analytics",
+    "analytics": "Analytics",
+    "statistics": "Statistics",
+    "searchPair": "Search pair...",
+    "pairNotFound": "Pair not found",
+    "forexBalance": "Forex Balance"
+  },
+  "wallet": {
+    "title": "Wallet",
+    "totalBalance": "Total Balance",
+    "deposit": "Deposit",
+    "withdraw": "Withdraw",
+    "history": "History",
+    "transaction": {
+      "deposit": "Deposit",
+      "withdraw": "Withdrawal"
+    },
+    "tokens": "Tokens",
+    "balance": "Balance",
+    "contractAddress": "Contract address",
+    "yourAddress": "Your address",
+    "creatingWallet": "Creating wallet...",
+    "receive": "Receive",
+    "send": "Send",
+    "sendTokensTo": "Send tokens to this address:",
+    "copied": "Copied",
+    "copyAddress": "Copy address",
+    "token": "Token",
+    "recipientAddress": "Recipient address",
+    "amount": "Amount",
+    "txSent": "Transaction sent!",
+    "sending": "Sending...",
+    "viewHistory": "View transaction history:",
+    "openBasescan": "Open Basescan",
+    "transfer": "Transfer",
+    "exchange": "Exchange",
+    "exchangeComingSoon": "Exchange coming soon",
+    "exchangeComingSoonDesc": "We are working on the token exchange feature. Stay tuned for updates.",
+    "noTransactions": "No transactions yet",
+    "network": "Network",
+    "exchangeFrom": "You send",
+    "exchangeTo": "You receive",
+    "exchangePoweredBy": "Powered by",
+    "wrappedInfo": "Wrapped token on TON network. Use only TON network for transfers.",
+    "connectWallet": "Connect Wallet",
+    "connectToSeeAddress": "Connect wallet to see your address"
+  },
+  "support": {
+    "title": "Support",
+    "chatTitle": "Chat with support",
+    "chatSubtitle": "We'll respond within 5 minutes",
+    "writeMessage": "Write a message",
+    "supportTeam": "Support",
+    "replyingSoon": "We'll reply shortly",
+    "loadingMessages": "Loading messages...",
+    "welcomeMessage": "Hello! How can we help you? Write a message below.",
+    "messagePlaceholder": "Message...",
+    "loadError": "Failed to load chat. Try again later.",
+    "sendError": "Failed to send message.",
+    "photo": "Photo",
+    "video": "Video",
+    "file": "File",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "How to start trading?",
+      "a1": "Connect a Capital.com demo account in the \"Trade\" section, top up your balance and choose an asset to trade.",
+      "q2": "What is demo mode?",
+      "a2": "Demo mode allows you to trade with virtual money without risk of losing real funds. Perfect for learning.",
+      "q3": "How to top up balance?",
+      "a3": "Go to the \"Wallet\" section, select \"Deposit\" and follow the instructions. Minimum amount is $10.",
+      "q4": "What are the trading fees?",
+      "a4": "Fees depend on the asset: Crypto 0.1%, Forex 0.05%. No hidden charges.",
+      "q5": "How to withdraw profit?",
+      "a5": "In the \"Wallet\" section select \"Withdraw\", enter the amount and details. Processing takes 1-3 business days."
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "verified": "Verified",
+    "menu": {
+      "personal": "Personal Data",
+      "notifications": "Notifications",
+      "security": "Security"
+    },
+    "about": "About",
+    "settings": "Settings",
+    "notifications": {
+      "title": "Notifications",
+      "readAll": "Read all",
+      "empty": "No notifications"
+    },
+    "aboutModal": {
+      "title": "About Us",
+      "description": "Professional platform for cryptocurrency and Forex trading with demo mode.",
+      "version": "Version",
+      "features": "Features",
+      "feature1": "Demo trading via Capital.com",
+      "feature2": "Real-time market data",
+      "feature3": "Referral program",
+      "feature4": "Bonus system",
+      "feature5": "24/7 Support",
+      "telegramChannel": "Telegram Channel"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "currency": "Currency",
+    "about": "About",
+    "logout": "Logout",
+    "theme": "Theme",
+    "themeAuto": "Auto",
+    "fullscreen": "Fullscreen mode",
+    "twoFA": "2FA",
+    "languages": {
+      "ru": "Русский",
+      "en": "English",
+      "ua": "Українська"
+    }
+  },
+  "loading": {
+    "marketData": "Loading Market Data"
+  }
+}
