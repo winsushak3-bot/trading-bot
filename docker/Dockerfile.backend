@@ -6,9 +6,10 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Копируем shared и backend модули
+# Копируем shared, backend и bot модули
 COPY shared/ ./shared/
 COPY backend/ ./backend/
+COPY bot/ ./bot/
 
 # Запуск FastAPI
 CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000"]
